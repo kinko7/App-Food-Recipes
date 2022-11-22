@@ -1,0 +1,94 @@
+
+.container {
+ 
+position: relative;
+flex: 1;
+object-fit: cover;
+overflow: hidden;
+height: 250px;
+border-radius: 20px;
+/* box-shadow: 0px 10px 10px -6px black; */
+ 
+ 
+}
+
+.container img {
+opacity: 1;
+position: relative;
+vertical-align: top;
+transition: 0.6s;
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+transition-property: opacity;
+}
+
+.container:hover img {
+opacity: 0.4;
+}
+
+.container .details {
+z-index: 1;
+position: absolute;
+top: 0;
+right: 0;
+color: rgb(255, 255, 255);
+width: 100%;
+height: 100%;
+font-family: 'Jost', sans-serif;
+}
+
+.container .details:hover{
+cursor: pointer;
+}
+.container .details h2 {
+margin-top: -5px;
+font-family: 'Jost', sans-serif;
+margin-left: 20px;
+font-size: 30px;
+color: rgb(255, 255, 255);
+ 
+ 
+text-shadow: 2px 2px 2px #000;
+
+text-decoration: none;
+
+transition: 0.4s;
+transition-property: transform;
+}
+
+.card {
+position: absolute;
+background: rgba(255, 255, 255, 0.768);
+width: 80%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px;
+  bottom: 1px;
+ transition: 1.6s;
+transition-property: bottom; 
+}
+
+.container:hover .more {
+bottom: 0;
+}
+
+.card .diets {
+width: 155%;
+color: #000000;
+text-decoration: none;
+font-size: 15px;
+ 
+ 
+}
+
+.card .diets .diet {
+font-weight: 300;
+display: block;
+color: rgb(255, 255, 255);
+ 
+}
+
+

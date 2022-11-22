@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Gluten free"
+    },
+    {
+        "name": "Ketogenic"
+    },
+    {
+        "name": "Vegetarian"
+    },
+    {
+        "name": "Lacto-vegetarian"
+    },
+    {
+        "name": "Ovo-vegetarian"
+    },
+    {
+        "name": "Vegan"
+    },
+    {
+        "name": "Pescatarian"
+    },
+    {
+        "name": "Paleolithic"
+    },
+   {
+        "name": "Primal"
+    },
+   {
+        "name": "Whole 30"
+    },
+    {
+        "name": "Dairy free"
+    },
+    {
+        "name": "Lacto ovo vegetarian"
+    }
+]

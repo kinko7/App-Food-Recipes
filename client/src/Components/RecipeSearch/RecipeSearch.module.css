@@ -1,0 +1,55 @@
+ 
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.form {
+  display: flex;
+position: relative;
+ 
+}
+.input, button {
+  border:solid 1px rgba(81, 52, 11, 0.982);
+  background: rgb(253, 253, 252);
+  margin: 15px;
+  padding: 5px;
+}
+.input {
+  font-size: 14px;
+  padding: 7px 51x;
+  border-radius: 20px;
+}
+.botom {
+ 
+  border-radius:22px ;
+  background-color:rgba(60, 89, 92, 0.814);
+
+}
+
+.botom :hover {
+  cursor: pointer;
+ 
+}
+
+svg {
+  width: 25px;
+  height: 20px;
+  fill: rgb(255, 255, 255);
+  padding:2px
+  
+}
+
+svg :hover{
+  cursor: pointer;
+  
+}
+

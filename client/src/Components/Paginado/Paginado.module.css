@@ -1,0 +1,64 @@
+
+.paginado {
+    display: flex;   
+padding:30px;
+width: 70%;
+justify-content:space-between;
+margin: 2px auto;
+font-weight: 800;
+
+}
+
+.num {
+height: 25x;
+width: 25px;
+margin: 5px;
+padding: px;
+justify-content: center;
+display: flex;
+font-family: 'Jost', sans-serif;
+border:  solid 2px rgba(44, 49, 49, 0.726);;;
+background:rgba(255, 255, 255, 0.254);
+color: rgb(48, 41, 1);
+border-radius: 50px;
+}
+
+.num:hover {
+cursor: pointer;
+background:none;
+border: solid 2px rgba(2, 98, 105, 0.726);;
+color: rgb(31, 31, 31);
+ 
+ 
+}
+
+.nums{
+text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
